@@ -1,4 +1,4 @@
-#include "activity.h"
+#include "activity1.h"
 void activity1_init(){
 
 	//set B0 as output and intialise to output low
