@@ -5,6 +5,6 @@
 #include<avr/io.h>
 
 void activity1_init();
-void activity_loop();
+void activity1_loop();
 
 #endif
