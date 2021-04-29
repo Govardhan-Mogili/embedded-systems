@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "activity1.h"
 int main(void){
 activity1_init();
