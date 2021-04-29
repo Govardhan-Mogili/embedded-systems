@@ -34,7 +34,7 @@ endif
 
 all:$(BUILD_DIR)
 # Compile the code and generate the ELF file
-	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
+	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)  -DF_CPU=16000000UL
 
 $(BUILD_DIR):
 # Create directory to store the built files
@@ -42,7 +42,7 @@ $(BUILD_DIR):
 
 analysis: $(SRC)
 # Analyse the code using Cppcheck command line utility
-	cppcheck --enable=all $^
+	cppcheck --enable=all --platform=avr8 $^
 
 doc:
 # Build the code code documentation using Doxygen command line utility
