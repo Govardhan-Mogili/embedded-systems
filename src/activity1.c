@@ -17,7 +17,7 @@ void activity1_init(){
     PORTB|=(1<<PB6);
 	}
     
-	void activity_loop()
+	void activity1_loop()
     {
         if(!(PINB&(1<<PB6)) && !(PINB&(1<<PB7)))
             PORTB = PORTB|(1<<PB0);
