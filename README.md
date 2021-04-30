@@ -1,4 +1,7 @@
 # embedded-c project
+|Acivity-1|
+|:--:|
+|![Activity-1](https://github.com/Govardhan-Mogili/embedded-c/blob/main/simulation/Activity1.png)|
 #### CI and Code Quality
 |Build|Cppcheck|Codacy
 |:--:|:--:|:--:|
