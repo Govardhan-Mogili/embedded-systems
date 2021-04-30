@@ -5,6 +5,7 @@ uint16_t temp;
 int main(void){
 activity1_init();
 InitADC();
+InitPWM();
 while(1){
 	activity1_loop();
 	temp=ReadADC(3);
