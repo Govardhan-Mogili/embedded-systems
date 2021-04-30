@@ -16,7 +16,7 @@ void peripheral_init(void)
 uint16_t temp;
 char temp_data;
 int main(void){
-peripheral_init();
+ peripheral_init();
 
 while(1){
 	activity1_loop();
