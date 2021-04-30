@@ -2,6 +2,11 @@
 |Acivity-1|
 |:--:|
 |![Activity-1](https://github.com/Govardhan-Mogili/embedded-c/blob/main/simulation/Activity1.png)|
+|Activity-2|
+|![Acivity-2](https://github.com/Govardhan-Mogili/embedded-c/blob/main/simulation/Activity-2.png)|
+|Activity-3|
+
+|![Activity-3](https://github.com/Govardhan-Mogili/embedded-c/blob/main/simulation/Activity-3.png)|
 #### CI and Code Quality
 |Build|Cppcheck|Codacy
 |:--:|:--:|:--:|
