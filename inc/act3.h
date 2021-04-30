@@ -16,6 +16,6 @@
 *
 *@param temp_value
 */
-void OutPWM(uint16_t temp_value);
+char OutPWM(uint16_t temp_value);
 void InitPWN(void);
 #endif
