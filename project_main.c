@@ -1,7 +1,7 @@
 #include "act2.h"
 #include"activity1.h"
 #include"act3.h"
-#include"acivity4.h"
+#include"activity4.h"
 
 
 void peripheral_init(void)
