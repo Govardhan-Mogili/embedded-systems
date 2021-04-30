@@ -2,7 +2,14 @@
 #include"activity1.h"
 #include"act3.h"
 uint16_t temp;
+char temp_data;
+void peripheral_init(void)
+{
+	InitADC();
+	InitPWM();
+	InitUART(103);
 int main(void){
+	peripheral_init();
 activity1_init();
 InitADC();
 void InitPWM();
