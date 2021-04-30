@@ -41,7 +41,7 @@ void OutPWM(uint16_t ADC_val)
 		OCR1A = 717; //70% duty cycle
 		_delay_ms(20);
 	}
-	else if((ADC_val>=710 && (ADC_val<=1024)){
+	else if((ADC_val>=710) && (ADC_val<=1024)){
 		OCR1A = 973; //95% duty cycle
 		_delay_ms(20);
 	}
