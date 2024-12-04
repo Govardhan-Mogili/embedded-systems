@@ -1,5 +1,19 @@
+/** 
+* @file activity1.h
+* @author 260838 (you@domain.com)
+* @brief Changes the state of LED
+* @version 0.1
+* @date 2021-04-27
+*
+* @copyright Copyright (c) 2021
+*
+*/
 #include "activity1.h"
-void activity1_init(){
+void ledstat(uint8_t state)
+{
+	LED_PORT = (state << LED_PIN);
+}
+void activity1_init(void){
 
 	//set B0 as output and intialise to output low
 	
